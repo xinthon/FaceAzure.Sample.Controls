@@ -9,7 +9,7 @@
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="{x:Type local:LabelTextEditor}">
-                            <Grid Height="35">
+                            <Grid Width="Auto" Height="Auto">
                                 <Label
                                     Padding="{TemplateBinding Padding}"
                                     VerticalAlignment="{TemplateBinding VerticalAlignment}"
@@ -23,7 +23,7 @@
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="{x:Type local:LabelTextEditor}">
-                            <Grid Height="35">
+                            <Grid Width="Auto" Height="Auto">
                                 <TextBox
                                     Padding="{TemplateBinding Padding}"
                                     VerticalAlignment="{TemplateBinding VerticalAlignment}"

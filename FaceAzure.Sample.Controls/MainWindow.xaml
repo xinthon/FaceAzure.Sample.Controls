@@ -11,14 +11,21 @@
     FontSize="14"
     mc:Ignorable="d">
     <Grid>
-        <StackPanel Grid.Row="5" Width="400" Height="600" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <local:LabelTextEditor 
-                Padding="10,15"
+        <StackPanel
+            Grid.Row="5"
+            Width="400"
+            Height="600"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <local:LabelTextEditor
                 x:Name="labelOne"
-                VerticalAlignment="Center"
                 Content="{Binding SampleString, Mode=TwoWay}"
                 LabelState="Normal" />
-            <Button x:Name="btnOne" Content="Click me" />
+            <Button
+                x:Name="btnOne"
+                Margin="0,10"
+                Padding="auto, 50"
+                Content="Click me" />
         </StackPanel>
     </Grid>
 
